@@ -1,39 +1,19 @@
-# Splitr – AI-Powered Expense Splitting App 💸
+# Splitr
 
-Splitr is a full-stack, real-time expense splitting application powered by AI. It simplifies group and individual expense management with smart insights, collaborative features, and automated reminders.
+Splitr is a web app that helps you split expenses with friends, family, or roommates. It supports real-time updates, smart reminders, and shows AI-based insights on your spending.
 
-## 🚀 Features
+## Features
 
-- 💡 AI-generated spending insights
-- 🔄 Real-time sync for group expenses
-- ✉️ Automated payment reminders via email
-- 🔐 Secure user authentication and access control
-- 📊 Clean, responsive UI for desktop and mobile
+- Split bills with people easily
+- Track group and individual expenses
+- Real-time updates when someone adds or edits an expense
+- Login/signup with email using Clerk
+- Get email reminders for pending payments
+- AI-powered suggestions to understand your spending
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-### Frontend
-- React 19
-- Next.js 15 (App Router)
-- Tailwind CSS
-- Shadcn UI
-
-### Backend
-- Convex (real-time backend and functions)
-- Prisma ORM
-- PostgreSQL
-
-### Auth & Automation
-- Clerk (Authentication & Authorization)
-- Inngest (Serverless workflows)
-- Resend (Transactional Emails)
-
-## ⚙️ Architecture Overview
-
-- `Convex` handles API logic, real-time updates, and state management.
-- `Prisma + PostgreSQL` stores structured expense data.
-- `Clerk` provides secure authentication flows.
-- `Inngest` automates AI-driven analysis and reminder jobs.
-- `Resend` sends transactional emails for reminders and updates.
-
-
+- **Frontend:** React 19, Next.js 15, Tailwind CSS, Shadcn UI
+- **Backend:** Convex (real-time functions), Prisma, PostgreSQL
+- **Auth:** Clerk
+- **Automation:** Inngest (for reminders and AI), Resend (for emails)
